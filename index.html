@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Knic-Knaxz</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<section>
+			<div id="container">
+				<div id="logo">
+					<img class="center" src="images/knic-knaxz.png">
+					<audio>
+						<source id="crash" src="audio/crash.mp3" type="audio/mpeg">
+					</audio>
+				</div>
+			</div>
+		</section>
+
+		<script>
+			var audio = document.getElementsByTagName("audio")[0];
+			document.getElementById("logo").onmouseover = function() {
+			  audio.play();
+			};
+		</script>
+	</body>
+</html>
